@@ -206,7 +206,7 @@ class WalkyrieNode:
                 "height"        : ("INT",   {"default": 1024, "min": 64, "max": 4096, "step": 16}),
                 "width"         : ("INT",   {"default": 1024, "min": 64, "max": 4096, "step": 16}),
                 "steps"         : ("INT",   {"default": 20,  "min": 1,  "max": 200}),
-                "guidance_scale": ("FLOAT", {"default": 4.0, "min": 0.0, "max": 20.0, "step": 0.1}),
+                "guidance_scale": ("FLOAT", {"default": 3.0, "min": 0.0, "max": 20.0, "step": 0.1}),
                 "seed"          : ("INT",   {"default": 42,  "min": 0,  "max": 0xffffffffffffffff}),
                 "dtype"         : (["bfloat16", "float16", "float32"], {"default": "bfloat16"}),
             },
